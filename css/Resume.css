@@ -4,6 +4,10 @@ body {
     
   
 }
+..col-lg-12{
+	    padding-right: 31px;
+    padding-left: -31px;
+}
 p {
   font-size: 20px;
 }
