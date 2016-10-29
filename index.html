@@ -47,6 +47,9 @@
 	html{
 		overflow-x: hidden !important;
 	}
+	body{
+		overflow-x: hidden !important;
+	}
 	</style>
 
 <!-- jQuery Plugin -->
@@ -57,7 +60,7 @@
         $(window).load(function() { // makes sure the whole site is loaded
             $('#status').fadeOut(); // will first fade out the loading animation
             $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(30000).css({'overflow':'visible'});
+            $('body').delay(30000).css({});
         });
     
  
