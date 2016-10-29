@@ -184,6 +184,8 @@ section {
 }
 section h2 {
   margin: 0;
+	margin-right: -39px;
+margin-left: -50px;
   font-size: 3em;
 }
 section.success {
