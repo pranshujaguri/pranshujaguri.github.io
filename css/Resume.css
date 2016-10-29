@@ -192,9 +192,7 @@ p {
   font-size: 20px;
 }
 
-html{
-	overflow-x: hidden;
-} 
+
 
 p.small {
   font-size: 16px;
@@ -276,9 +274,12 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
+	  padding-right: 70px;
+    padding-left: 89px;
     padding-top: 200px;
     padding-bottom: 100px;
   }
+	
   header .intro-text .name {
     font-size: 4.75em;
   }
@@ -286,6 +287,31 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+/*@media (min-width: 330px) {
+   .container {
+	 
+    padding-right: 28px;
+    padding-left: 10px;
+    margin-right: -6px;
+    margin-left: 20px;
+  }
+}*/
+/*@media (min-width: 360px) {
+  header .container {
+	 padding-right: 20px;
+    padding-left: 47px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+}*/
+/*@media (min-width: 290px) {
+  header .container {
+padding-right: 27px;
+    padding-left: 5px;
+    margin-right: 33px;
+    margin-left: 21px;
+	}
+}*/
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
