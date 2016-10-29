@@ -25,7 +25,7 @@ body {
     position:absolute;
     left:40%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url('Images/01-progress.gif'); /* path to your loading animation */
+    background-image:url('../Images/01-progress.gif'); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -123,9 +123,7 @@ max-height: 298px;
   z-index: 2;
   cursor: pointer;
 }
-	.btn-primary.disabled{
- background-color: #100404;
-	}
+	
 /* Hide the tooltip content by default */
 [data-tooltip]:before,
 [data-tooltip]:after {
